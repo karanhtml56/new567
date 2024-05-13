@@ -1,0 +1,55 @@
+*{
+    
+}
+.container-fluid{
+    background-color: whitesmoke;
+    transition: all;
+    transition-duration: 5s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+    }
+   
+        
+  li:hover{
+    background-color: gray;
+  }
+  body{
+    background-image: url(main.jpg);
+   background-size: cover;
+  }
+  div{
+    margin: 25px;
+  }
+  #one{
+    background-image: url(smoky.webp);
+    
+  }
+  .about{
+    background-image: url(none);
+
+  }
+  .h1{
+    color: black;
+    transition: all;
+    transition-duration: 0.25s;
+    transition-delay: 2s;
+  }
+ h1:hover{
+  color : blue ;
+   color: red yellow;
+
+ }
+  .form{
+    display: flex;
+    background-image: none;
+    margin-top: 10px;
+    width: 50%;
+  }
+  .login{
+    background-color:black;
+    color: whitesmoke;
+  }
+  .image{
+    position: relative;
+    left: 30%;
+  }
